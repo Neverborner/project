@@ -1,0 +1,505 @@
+* {
+    margin: auto;
+}
+
+@font-face {
+    font-family: "Gaoel";
+    src: url("fonts/gaoel.ttf");
+  }
+
+body {
+    background-image: url('images/GGVAL-1170x658\ \(1\).png');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Century Gothic';
+    color: #ffffff;
+}
+
+header {
+    font-size: larger;
+    align-content: center;
+    font-weight: bold;
+    font-family: 'Gaoel';
+    text-align: center;
+    color: #000000;
+	background-color: #e0cfb1;
+	height: 70px;
+}
+
+.dotaaa {
+    top: -3px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.dotaaa:hover {
+    filter: invert(1);
+    transition: 0.3s;
+}
+
+.container1 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-color: #434B4D;
+    width: 300px;
+    height: 500px;
+    border: 5px solid black;
+    transition: 0.6s;
+}
+
+.durak {
+    background-color: #293133;
+    width: 300px;
+    height: 300px;
+}
+
+.baza {
+    line-height: 22px;
+    margin-top: 2px;
+    color: #d7dad4;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Arial';
+}
+
+.container1:hover {
+    border: 5px solid #e0cfb1;
+    transition: 0.6s;
+}
+
+.titan {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.number {
+    display: inline-block;
+    position: absolute;
+    top: 472px;
+    left: 28px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.vk {
+    position: absolute;
+    display: inline-block;
+    background-color: #2a3132;
+    width: 40px;
+    height: 30px;
+    top: 452px;
+    left: 75px;
+    border-radius: 5px;
+}
+
+.twitter {
+    position: absolute;
+    display: inline-block;
+    background-color: #2a3132;
+    width: 40px;
+    height: 30px;
+    top: 452px;
+    left: 130px;
+    border-radius: 5px;
+}
+
+.steam {
+    position: absolute;
+    display: inline-block;
+    background-color: #2a3132;
+    width: 40px;
+    height: 30px;
+    top: 452px;
+    left: 185px;
+    border-radius: 5px;
+}
+
+.twitch {
+    position: absolute;
+    display: inline-block;
+    background-color: #2a3132;
+    width: 40px;
+    height: 30px;
+    top: 452px;
+    left: 240px;
+    border-radius: 5px;
+}
+
+.vk:hover {
+    background-color: #3d4546;
+    transition: 0.3s;
+}
+
+.twitter:hover {
+    background-color: #3d4546;
+    transition: 0.3s;
+}
+
+.steam:hover {
+    background-color: #3d4546;
+    transition: 0.3s;
+}
+
+.twitch:hover {
+    background-color: #3d4546;
+    transition: 0.3s;
+}
+
+.vki {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+.twitteri {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+.steami {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+.twitchi {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+.odyrachyo {
+    display: inline-block;
+    position: absolute;
+    background-color: #e0cfb1;
+    color: black;
+    font-family: 'Arial';
+    height: 150px;
+    width: 600px;
+    font-size: larger;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    top: 100px;
+    left: 350px;
+    padding: 8px 8px 8px 8px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.carera {
+    display: inline-block;
+    position: absolute;
+    background-color: #e0cfb1;
+    color: black;
+    font-family: 'Arial';
+    height: 360px;
+    width: 600px;
+    font-size: larger;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    top: 300px;
+    left: 350px;
+    padding: 8px 8px 8px 8px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+@media (min-width: 0px) and (max-width: 1026px) {
+    .odyrachyo {
+        width: auto;
+        height: auto;
+        margin-right: 20px;
+    }
+    .carera {
+        width: auto;
+        height: auto;
+        margin-right: 20px;
+    }
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .durak2 {
+        width: auto;
+        height: auto;
+    }
+    .durak3 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 936px) {
+    .odyrachyo {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .carera {
+        line-height: 20px;
+        font-size: 15px;
+        top: 320px;
+        width: auto;
+        height: auto;
+    }
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .dalee1 {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .end {
+        line-height: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 648px) {
+    .carera {
+        width: auto;
+        height: auto;
+    }
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 589px) {
+    .carera {
+        width: 510px;
+        width: auto;
+        height: auto;
+    }
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1248px) {
+    .videos {
+        display: none;
+    }
+    .lovely {
+        display: none;
+    }
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .poiskovik {
+        display: none;
+    }
+}
+
+.videos {
+    background-color: #293133;
+    height: 760px;
+    width: 265px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+@keyframes podsvetka {
+    from {
+        filter: invert(0);
+    }
+     50% {
+        filter: invert(1);
+     }
+     to {
+        filter: invert(0);
+     }
+}
+
+.ytb1 {
+    margin-top: 20px;
+}
+
+.ytb2 {
+    margin-top: 10px;
+}
+
+.ytb3 {
+    margin-top: 10px;
+}
+
+.ytb4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lovely {
+    background-color: #293133;
+    color: white;
+    top: 710px;
+    left: 330px;
+    position: absolute;
+    display: inline-block;
+    width: 645px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    border: 5px solid #000000;
+    line-height: 40px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.gulya {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #8D3020;
+}
+
+.gulya1 {
+    display: none;
+}
+
+.morf {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #8D3020;
+}
+
+.tb {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #8D3020;
+}
+
+.dalee1 {
+    display: inline-block;
+    position: absolute;
+    background-color: #e0cfb1;
+    color: black;
+    font-family: 'Arial';
+    height: 240px;
+    width: 800px;
+    font-size: larger;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    top: 1000px;
+    left: 275px;
+    padding: 8px 8px 8px 8px;
+    line-height: 30px;
+    text-align: justify;
+    left: 20px;
+}
+
+.end {
+    display: inline-block;
+    position: absolute;
+    background-color: #e0cfb1;
+    color: black;
+    font-family: 'Arial';
+    height: 240px;
+    width: 800px;
+    font-size: larger;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    top: 1300px;
+    left: 275px;
+    padding: 8px 8px 8px 8px;
+    line-height: 30px;
+    text-align: justify;
+    right: -115px;
+}
+
+.search {
+    position: absolute;
+    border: 5px solid #000000;
+    top: 20.5px;
+    margin-left: 31%;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+.search1 {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 96.5%;
+    margin-right: 0px;
+    top: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+    .lovely {
+        top: 1000px;
+        left: 110px;
+    }
+    .dalee1 {
+        top: 700px;
+        left: 30px;
+    }
+    .end {
+        left: -120px;
+    }
+    .durak2 {
+        display: none;
+    }
+    .durak3 {
+        display: none;
+    }
+}
+
+.durak2 {
+    height: 240px;
+    width: 360px;
+    border: 5px solid black;
+    position: absolute;
+    top: 1008px;
+    left: 870px;
+}
+
+.durak3 {
+    height: 240px;
+    width: 360px;
+    border: 5px solid black;
+    position: absolute;
+    top: 1308px;
+    left: 20px;
+}
+
+.footer1 {
+    align-content: center;
+    text-align: center;
+    color: #d7dad4;
+	background-color: #293133;
+	height: 40px;
+    top: 1600px;
+    position: absolute;
+    width: 100%;
+}
+
+.up {
+    height: 25px;
+    width: 25px;
+    filter: invert(1);
+    position: absolute;
+    display: inline-block;
+    top: 1608px;
+    left: 97%;
+}
